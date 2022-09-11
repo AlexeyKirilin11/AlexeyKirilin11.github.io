@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@import './media';
+
+* {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+li,
+dl {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+    &:hover {
+        text-decoration: none;
+        color: inherit;
+    }
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0; 
+}
+
+
+//dark theme
+
+html[data-theme='dark'] {
+    --input-text-color: rgba(255, 255, 255, 0.3);
+    --input-background-color: #0C0C0C;
+    --input-border-color: #fff;
+    --background-color: #000;
+    --background-color-select: #0C0C0C;
+    --background-color-option-hover: #fff;
+    --color: #fff;
+    --color-option: #000; 
+    --border: #fff;
+    --box-shadow: 0px 0px 0px 1px #fff;
+    --pagination-border-color: rgb(143, 119, 119);
+    --pagination-color: #fff;
+    --pagination-hover-color: #fff;
+    --pagination-active-color: #000;
+    --pagination-active-background-color: #fff;
+}
+
+//light theme
+
+html[data-theme='light'] {
+    --input-text-color: #000;
+    --input-placeholder-text-color: rgba(0, 0, 0, 0.3);
+    --input-background-color: ##0C0C0C;
+    --input-border-color: rgba(0, 0, 0, 0.3);
+    --background-color-option-hover: #0C0C0C;
+    --background-color: #fff;
+    --background-color-select: #fff;
+    --color-option: #fff; 
+    --color: #000;
+    --border: rgba(0, 0, 0, 0.3);
+    --box-shadow: 0px 0px 0px 1px #000;
+    --pagination-border-color: #000;
+    --pagination-color: #000;
+    --pagination-active-color: #fff;
+    --pagination-hover-color: #EDEDED;
+    --pagination-color: #464646;
+    --pagination-active-background-color: #000;
+
+}
+

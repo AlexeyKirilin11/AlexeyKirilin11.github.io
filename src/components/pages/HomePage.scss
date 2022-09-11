@@ -1,0 +1,14 @@
+@import '../../style/style.scss';
+@import '../paintingHeader/PaitingHeader.scss';
+@import '../paintingList/PaintingList.scss';
+
+.background {
+    background-color: var(--background-color);
+    transition: background-color 400ms linear;
+}
+
+
+.container {
+    max-width: 1120px;
+    margin: 0 auto;
+}

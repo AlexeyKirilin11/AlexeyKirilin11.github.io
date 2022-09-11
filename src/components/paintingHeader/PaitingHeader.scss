@@ -1,0 +1,14 @@
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 0;
+    align-items: center;
+}
+
+.header__btn {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    background: transparent;
+    border: none;  
+}
